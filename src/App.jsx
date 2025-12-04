@@ -3,6 +3,7 @@ import { Mail, Phone, MapPin, Send, Check, X, Zap, Briefcase, DollarSign, Extern
 import PortfolioPage from "./Portfolio";
 import ContactPage from "./Contact";
 import PricingPage from "./Pricing";
+import logo from "../public/LOGO.png"
 import ServicesPage from "./Services";
 
 // --- Shared Components for Pages ---
@@ -339,7 +340,7 @@ export default function App() {
           <div className="flex items-center gap-4 cursor-pointer" onClick={() => setPage('Home')}>
             {/* Using the uploaded logo image */}
             <img
-              src="/LOGO.png"
+              src={logo}
               alt="Crazy Thinker Logo - Rat Mascot"
               className="w-12 h-12 object-cover rounded-xl border-2 border-sky-400 p-0.5 shadow-lg"
               // Fallback placeholder in case the image cannot be loaded
