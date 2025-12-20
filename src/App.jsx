@@ -6,7 +6,9 @@ import PricingPage from "./Pricing";
 import logo from "../public/LOGO.png"
 import ServicesPage from "./Services";
 
-// --- Shared Components for Pages ---
+// --- Shared 
+// 
+// Components for Pages ---
 
 // Contact Page Components
 function ContactForm({ setPage }) {
